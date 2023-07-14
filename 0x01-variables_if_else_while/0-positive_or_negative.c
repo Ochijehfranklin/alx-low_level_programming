@@ -8,7 +8,7 @@
 * description - 'check for a random if positive, negative or zero'
 * Return: Always 0
 */
-void main(void)
+int main(void)
 {
 	int n;
 
