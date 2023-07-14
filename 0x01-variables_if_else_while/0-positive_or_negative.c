@@ -3,9 +3,9 @@
  #include <stdio.h>
 
  /**
-  *main - Entry point
-  *Description: 'check for a random if positive, negative or zero'
-  *Return: Always 0
+  * main - Entry point
+  * Description: 'check for a random if positive, negative or zero'
+  * Return: Always 0
   */
 int main(void)
 {
