@@ -2,12 +2,13 @@
  #include <time.h>
  #include <stdio.h>
 
- /**
-  * main - Entry point
-  * Description: 'check for a random if positive, negative or zero'
-  * Return: Always 0
-  */
-int main(void)
+/**
+* main - this is the main function
+* print_value - prints "Val"
+* description - 'check for a random if positive, negative or zero'
+* Return: Always 0
+*/
+void main(void)
 {
 	int n;
 
