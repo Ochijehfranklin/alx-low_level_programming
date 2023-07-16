@@ -17,7 +17,7 @@ int main(void)
 		for (y = x + 1; y <= 57; y++)
 		{
 			putchar(x);
-			utchar(y);
+			putchar(y);
 			putchar(',');
 			putchar(' ');
 		}
