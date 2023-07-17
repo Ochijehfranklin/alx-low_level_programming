@@ -2,13 +2,15 @@
 
 /**
  * main - Entry point
- *
- * Return: Always 0 (Success)
+ * description: 'Return an error'
+ * Return: Always 1 (Error)
  */
 int main(void)
 {
-	char message[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-    write(2, message, sizeof(message) - 1);
-    return 1;
+char message[] = "and that piece of art is useful\" - \"
+		\"Dora Korpar, 2015-10-19\n";
+write(2, message, sizeof(message) - 1);
+
+return (1);
 }
 
