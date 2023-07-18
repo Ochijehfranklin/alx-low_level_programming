@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - This is the entry point
- * Description: Prints alphabets 10 times
+ *  print_alphabet_x10 - Prints alphabets 10 times
+ *
  * Return: Always 0;
  */
 
