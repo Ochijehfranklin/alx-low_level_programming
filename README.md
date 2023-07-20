@@ -1,1 +1,1 @@
-This project would be about C programming language
+This would make me better at debugging
