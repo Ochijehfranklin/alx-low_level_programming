@@ -1,1 +1,1 @@
-This would make me better at debugging
+This directory is for pointers
