@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncat - This function copies a sting to another
+ * _strcat - This function copies a sting to another
  *
  * @dest: This would hold the other value
  *
