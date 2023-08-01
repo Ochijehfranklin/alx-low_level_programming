@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
  * set_string - set the value of pointer
@@ -11,15 +10,5 @@
 
 void set_string(char **s, char *to)
 {
-	if (s == NULL || to == NULL)
-		return;
-
-	*s = malloc(strlen(to) + 1);
-
-	if (*s == NULL)
-	{
-		fprintf(stderr, "Memory allocation failed. \n");
-		return;
-	}
-	strcpy(*s, to);
+	*s = to;
 }
