@@ -1,1 +1,1 @@
-This directory is for pointers
+0x0A. C - argc, argv
