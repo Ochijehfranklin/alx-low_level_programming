@@ -40,9 +40,9 @@ char *str_concat(char *s1, char *s2)
 	y = 0;
 	while (s2[y] != '\0')
 	{
-		retPtr[x] = s2[y];
-		x++, y++;
+		retPtr[x + y] = s2[y];
+		y++;
 	}
-	retPtr[x] = '\0';
+	retPtr[x + y] = '\0';
 	return (retPtr);
 }
