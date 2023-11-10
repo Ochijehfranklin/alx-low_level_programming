@@ -8,7 +8,7 @@
 
 size_t dlistint_len(const dlistint_t *h)
 {
-	char count;
+	size_t count;
 
 	count = 0;
 
